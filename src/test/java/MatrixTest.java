@@ -11,7 +11,7 @@ public class MatrixTest {
     private static final int MATRIX_LENGTH = 5;
 
     // TODO: Uncomment testcase to test minimum method.
-    /*
+
     @Test
     public void testMinimum() {
         int[][] matrix = {
@@ -24,10 +24,10 @@ public class MatrixTest {
 
         assertEquals(-97, Matrix.minimum(matrix));
     }
-    */
+
 
     // TODO: Uncomment testcase to test numbersDivisibleByThree method.
-    /*
+
     @Test
     public void testNumbersDivisibleByThree() {
         int[][] matrix = {
@@ -49,5 +49,4 @@ public class MatrixTest {
         assertTrue(actual.contains(-27));
         assertTrue(actual.contains(-84));
     }
-    */
-}
+    }

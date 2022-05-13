@@ -5,8 +5,9 @@ import static org.junit.Assert.assertTrue;
 
 public class DentistTest {
 
+
     // TODO: Uncomment testcase to test newAppointment method.
-    /*
+
     @Test
     public void testNewAppointment() {
         Dentist dentist = new Dentist();
@@ -27,10 +28,10 @@ public class DentistTest {
         dentist.newAppointment(patientName3, timestamp3);
         assertEquals(patientName1 + " " + timestamp1 + "\r\n" + patientName2 + " " + timestamp2, dentist.getAppointments());
     }
-    */
+
 
     // TODO: Uncomment testcase to test resign method.
-    /*
+
     @Test
     public void testResign() {
         Dentist chef = new Dentist();
@@ -56,7 +57,7 @@ public class DentistTest {
         chef.resign(patientName2);
         assertTrue(chef.getAppointments().isEmpty());
     }
-    */
+
 
     // TODO: Uncomment testcase to test refreshAppointment method.
     /*
